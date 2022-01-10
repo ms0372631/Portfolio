@@ -95,14 +95,6 @@
 		appearance: none;
 	}
 
-	image.fit .profile-pic {
-		width: 300px;
-		height: 300px;
-		margin-left: 150px;
-		background-size: cover;
-		border-radius: 50%;
-	}
-
 /* Basic */
 
 	// Set box model to border-box.
@@ -679,6 +671,14 @@
 				width: 100%;
 			}
 		}
+	}
+
+	.profile-pic {
+		width: 300px;
+		height: 300px;
+		margin-left: 150px;
+		background-size: cover;
+		border-radius: 50%;
 	}
 
 /* List */
